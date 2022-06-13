@@ -1,6 +1,67 @@
 
 
+var lista = ["maçã", "pera", "morango", "manga"];
+//console.log(lista[0]);
+//console.log(lista[1]);
+//console.log(lista[2]);
+//console.log(lista[3]);
+console.log(lista);
 
+    // INSERINDO UM ELEMENTO ao FINAL da LISTA  - PUSH 
+
+lista.push("uva");
+console.log(lista);
+
+    // RETIRANDO UM ELEMENTO do FINAL da LISTA  - POP
+
+//lista.pop();
+//console.log(lista);
+
+    // PARA SABER A QUANTIDADE DE ELEMENTOS  -  LENGTH
+
+    //console.log(lista.length);
+
+    // PARA INVERTER A ORDEM DA LISTA  -  REVERSE
+
+   // console.log(lista.reverse());
+
+    // TRANSFORMAR UM ARRAY NUMA STRING
+    //console.log(lista.toString());
+
+    // MOSTRA O ELEMENTO DE ÍNDICE [0]
+    //console.log(lista[0]);
+
+    // MOSTRA O ELEMENTO DE ÍNDICE [0] DA STRING
+    //console.log(lista.toString()[0]);
+
+    // JOIN - TRANSFORMA A LISTA NUMA STRING COM OS ELEMENTOS SEPARADOS POR ALGUM TIPO DE SEPAARADOR
+    //console.log(lista.join(" - "));
+    //console.log(lista.join(" _ "));
+    //console.log(lista.join(" |"));
+    //console.log(lista.join("  "));
+
+    // DICIONÁRIO
+
+    var fruta = {nome:"maçã", cor:"vermelha"};
+    console.log(fruta.nome);
+    console.log(fruta.cor);
+    console.log(fruta.nome, fruta.cor);
+
+     // LISTA DE DICIONÁRIOS
+
+     var frutas = [{nome:"maçã", cor:"vermelha"}, {nome:"uva", cor:"roxa"}];
+     console.log(frutas[0].nome);
+     console.log(frutas[1].nome);
+     console.log(frutas);
+     
+    
+ 
+
+//alert(lista[0]);
+
+
+
+/*
 var nome = "Régis Universo";
 var idade1 = 55;
 var idade2 = 24;
@@ -30,4 +91,10 @@ var n2 = 10;
 
 //alert(n1 + n2);
 console.log(n1 + n2);
+console.log(n1 - n2);
+console.log(n1 * n2);
+console.log(n1 / n2);
+console.log(n1 ** n2);
+console.log(n1 % n2);
+*/
 
