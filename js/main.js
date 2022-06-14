@@ -1,16 +1,62 @@
 
+  
+  
 
-var lista = ["maçã", "pera", "morango", "manga"];
+    /*        //  DATE      DATA ATUAL
+            var d = new Date();
+                alert(d);
+                alert(d.getDate());
+                alert(d.getDay());
+                alert(d.getFullYear());
+                alert(d.getHours());
+                alert(d.getTime());
+    */
+
+
+/*
+        //  FOR       REPETIÇÃO
+
+        var count;
+        for(count = 0; count<= 5; count++) {
+            console.log(count);
+        };   */
+        
+        
+        
+    /*    //  WHILE     REPETIÇÃO
+
+var count = 0;
+while (count <= 5) {
+    console.log(count);
+   // count = count + 1;  substituir por
+   count++;
+}   */
+
+/*
+        //  IF / ELSE   CONDICIONAIS
+
+    var idade = prompt("Qual a sua idade?");
+   // var idade = 18;
+    if (idade >=18) {
+        alert("MAIOR DE IDADE");
+    } else {
+        alert("MENOR DE IDADE");
+    };   */
+
+
+    // ====================================
+
+//var lista = ["maçã", "pera", "morango", "manga"];
 //console.log(lista[0]);
 //console.log(lista[1]);
 //console.log(lista[2]);
 //console.log(lista[3]);
-console.log(lista);
+//console.log(lista);
 
     // INSERINDO UM ELEMENTO ao FINAL da LISTA  - PUSH 
 
-lista.push("uva");
-console.log(lista);
+//lista.push("uva");
+//console.log(lista);
 
     // RETIRANDO UM ELEMENTO do FINAL da LISTA  - POP
 
@@ -42,17 +88,17 @@ console.log(lista);
 
     // DICIONÁRIO
 
-    var fruta = {nome:"maçã", cor:"vermelha"};
+   /* var fruta = {nome:"maçã", cor:"vermelha"};
     console.log(fruta.nome);
     console.log(fruta.cor);
-    console.log(fruta.nome, fruta.cor);
+    console.log(fruta.nome, fruta.cor);   */
 
      // LISTA DE DICIONÁRIOS
 
-     var frutas = [{nome:"maçã", cor:"vermelha"}, {nome:"uva", cor:"roxa"}];
+    /* var frutas = [{nome:"maçã", cor:"vermelha"}, {nome:"uva", cor:"roxa"}];
      console.log(frutas[0].nome);
      console.log(frutas[1].nome);
-     console.log(frutas);
+     console.log(frutas);  */
      
     
  
