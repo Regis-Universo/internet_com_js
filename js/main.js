@@ -1,7 +1,71 @@
 
-  
-  
+        //  MANIPULANDO ELEMENTOD
 
+        //  FUNCTION BOTAO
+
+        //  .innerHTML=" TEXTO"
+
+         function clicar() {
+            document.getElementById("agradecimento").innerHTML= "<b>TESTANDO JS</b>";
+        }
+
+        function redirecionar() {
+            window.open("index.html");
+        }
+
+        function pagina2() {
+            window.open("pagina2.html");
+        }
+
+
+ /*   function clicar() {
+        alert("Obrigado por clicar!!!");
+    }    */
+
+ /*   function clicar() {
+       document.getElementById("agradecimento");
+       console.log(document.getElementById("agradecimento"));
+    }
+        
+        
+        
+        //FUNCTIONS
+
+  /*      //  function validaridade
+
+    function validarIdade(idade) {
+        var validar;
+        if (idade >= 18) {
+            validar = true
+        } else {
+            validar = false
+        }
+        return validar;
+    }
+
+    var idade = prompt("Qual a sua idade?");
+    console.log(validarIdade(idade));
+
+
+/*
+        // function soma
+    
+    function soma(n1, n2) {
+        return n1 - n2;
+    }
+  
+    alert(soma(5, 10));
+
+
+    // funciton setReplace
+
+    function setReplace(frase, nome, novo_nome) {
+        return frase.replace(nome, novo_nome)
+    }
+  
+    alert(setReplace("Vamos andar", "Pra lá", "pra cá"));
+   
+   
     /*        //  DATE      DATA ATUAL
             var d = new Date();
                 alert(d);
